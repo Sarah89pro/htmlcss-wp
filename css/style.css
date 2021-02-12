@@ -1,0 +1,91 @@
+/*GENERAL*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+/*UTILITY*/
+
+.container {
+    width: 1170px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+}
+
+main .col-one,
+main .col-two,
+main .col-three {
+    float: left;
+}
+
+.columns::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*HEADER*/
+
+header {
+    height: 120px; /*fake content*/
+    margin-bottom: 20px;
+    background-color: rgb(241, 117, 241);
+
+}
+
+/*MAIN*/
+
+.mainslide {
+    height: 400px; /*fake content*/
+    margin-bottom: 20px;
+    background-color: rgba(228, 179, 19, 0.979);
+}
+
+.topic {
+    height: 80px;
+    background-color: aquamarine;
+
+}
+
+/*COLUMNS*/
+
+.columns{
+    height: 400px;
+    padding:20px 0;
+    background-color: rgb(64, 67, 240);
+}
+
+.col-one,
+.col-three {
+    height: 100%;
+    width: 25%;
+    background-color: aquamarine;
+}
+
+.col-two {
+    height: 100%;
+    width: calc(50% - 40px);
+    margin: 0 20px;
+    background-color: aquamarine;
+}
+
+/*Footer*/
+
+.footer {
+    height: 80px;
+    margin-top: 20px;
+    background-color: purple;
+}
