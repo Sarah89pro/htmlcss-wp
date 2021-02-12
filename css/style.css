@@ -36,6 +36,8 @@ main .col-three {
     float: left;
 }
 
+/*CLEARFIX*/
+
 .columns::after {
     content: "";
     display: block;
@@ -49,6 +51,7 @@ header {
 }
 header .logo img {
     width: 160px;
+    padding-bottom: 15px;
 }
 
 .menu li {
@@ -70,41 +73,46 @@ header .logo img {
     margin-bottom: 20px;
     background-image: url("../img/banner.jpg");
     background-position:  center;
+    border-radius: 15px;
 }
 
 .content {
     height: 400px;
     padding: 250px 100px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(44, 39, 39, 0.5);
     color: white;
+    border-radius: 15px;
 
-}
-
-h2 {
-    font-weight: 600;
 }
 
 
 /*COLUMNS*/
 
 .columns{
-    height: 400px;
+    height: 600px;
     padding:20px 0;
-    background-color: rgb(64, 67, 240);
+    /*background-color: rgb(64, 67, 240);*/
+}
+
+
+.img {
+    height: 280px;
+    border-radius: 15px;
+
 }
 
 .col-one,
 .col-three {
     height: 100%;
     width: 25%;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
 }
 
 .col-two {
     height: 100%;
     width: calc(50% - 40px);
     margin: 0 20px;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
 }
 
 /*Footer*/
