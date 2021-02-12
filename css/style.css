@@ -66,13 +66,17 @@ header .logo img {
 /*MAIN*/
 
 .mainslide {
-    height: 400px; /*fake content*/
+    /*height: 400px; /*fake content*/
     margin-bottom: 20px;
     background-image: url("../img/banner.jpg");
+    background-position:  center;
 }
 
 .content {
-    
+    height: 400px;
+    padding: 250px 40px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 .topic {
