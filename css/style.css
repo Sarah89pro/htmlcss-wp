@@ -40,10 +40,22 @@ main .col-three {
 /*HEADER*/
 
 header {
-    height: 120px; /*fake content*/
     margin-bottom: 20px;
-    background-color: rgb(241, 117, 241);
+}
+header .logo img {
+    width: 160px;
+}
 
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #858585;
 }
 
 /*MAIN*/
