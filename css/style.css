@@ -63,7 +63,10 @@ header .logo img {
 .mainslide {
     height: 400px; /*fake content*/
     margin-bottom: 20px;
-    background-color: rgba(228, 179, 19, 0.979);
+}
+
+.banner {
+    background-image: url("img/banner.jpg");
 }
 
 .topic {
