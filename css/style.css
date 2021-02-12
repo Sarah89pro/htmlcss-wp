@@ -74,16 +74,16 @@ header .logo img {
 
 .content {
     height: 400px;
-    padding: 250px 40px 0;
+    padding: 250px 100px;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 
 }
 
-.topic {
-    height: 80px;
-    background-color: aquamarine;
-
+h2 {
+    font-weight: 600;
 }
+
 
 /*COLUMNS*/
 
@@ -110,7 +110,11 @@ header .logo img {
 /*Footer*/
 
 .footer {
-    height: 80px;
     margin-top: 20px;
-    background-color: purple;
+    text-align:center;
+    color: black;
+}
+
+#heart {
+    color: red;
 }
