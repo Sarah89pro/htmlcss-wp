@@ -8,12 +8,17 @@
 
 /*BODY*/
 
-.body {
+body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 600;
 }
 
@@ -63,10 +68,11 @@ header .logo img {
 .mainslide {
     height: 400px; /*fake content*/
     margin-bottom: 20px;
+    background-image: url("../img/banner.jpg");
 }
 
-.banner {
-    background-image: url("img/banner.jpg");
+.content {
+    
 }
 
 .topic {
