@@ -79,12 +79,13 @@ header .logo img {
 .content {
     height: 400px;
     padding: 250px 100px;
-    background-color: rgba(44, 39, 39, 0.5);
     color: white;
     border-radius: 15px;
-
 }
 
+.content:hover {
+    background-color:  rgba(129, 55, 55, 0.5);
+}
 
 /*COLUMNS*/
 
@@ -138,8 +139,11 @@ header .logo img {
     width: 100%;
     height: 200px;
     margin-bottom: 20px;
-    background-color: rgba(44, 39, 39, 0.5);
     border-radius: 15px;
+}
+
+.layover:hover {
+    background-color: rgba(129, 55, 55, 0.5);
 }
 
 
